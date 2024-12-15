@@ -23,7 +23,7 @@ p
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: url(img/bg.jpg);
+	background: url(img/koma_banner.png);
 	background-size: cover;
 }
 
@@ -261,7 +261,7 @@ section
 
 .testimonials
 {
-	background: url(img/bg2.jpg);
+	background: url(img/mocktail_banner.png);
 	background-size: cover;
 }
 
