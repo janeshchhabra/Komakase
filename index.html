@@ -3,8 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Restaurant website</title>
+	<title>Komakase</title>
+	<link rel="icon" type="image/x-icon" href="img/koma.ico">
 	<link rel="stylesheet" href="style.css">
+	<script>
+		!function(t,o,c,k){if(!t.tock){var e=t.tock=function(){e.callMethod?
+		e.callMethod.apply(e,arguments):e.queue.push(arguments)};t._tock||(t._tock=e),
+		e.push=e,e.loaded=!0,e.version='1.0',e.queue=[];var f=o.createElement(c);f.async=!0,
+		f.src=k;var g=o.getElementsByTagName(c)[0];g.parentNode.insertBefore(f,g)}}(
+		window,document,'script','https://www.exploretock.com/tock.js');
+	
+		tock('init', 'komakase-coffee');
+		</script>
 </head>
 <body>
 	<header>
@@ -26,10 +36,13 @@
 				Komakase is an intimate coffee omakase experience in San Francisco, showcasing the finest specialty coffees from around the world. Each curated course highlights unique brewing methods and flavor profiles, paired with small bites and palate cleansers to enhance the journey. Perfect for coffee lovers and the curious alike!
 
 			</p>
-			<a href="#menu" class="btn">Our Menu</a>
+			<div class="btn" id="Tock_widget_container" data-tock-display-mode="Button" data-tock-color-mode="Blue" data-tock-locale="en-us" data-tock-timezone="America/Los_Angeles"></div>
+			<!--<a href="#menu" class="btn">Our Menu</a>-->
 		</div>
 	</section>
 
+	<section class="about" id="about">
+	</section>
 	<section class="about" id="about">
 		<div class="row">
 			<div class="col50">
@@ -167,9 +180,9 @@
 -->
 	<section class="testimonials" id="testimonials">
 		<div class="title white">
-			<h2 class="titleText">They <span>S</span>aid About Us</h2>
+			<h2 class="titleText"><span>S</span>een in</h2>
 			<p>
-				Reviews from the media and people that have been seated
+				Reviews from the media
 			</p>
 		</div>
 		<div class="content">
@@ -181,30 +194,7 @@
 					<p>
 						"My favorite aspect of the affair was interfacing with artisans, having rich conversations about this thing we love so dearly." ... "I came away from the experience with a renewed sense of wonder."
 					</p>
-					<h3>Cesar Hernandez, SF Chronicle</h3>
-				</div>
-			</div>
-			<div class="box">
-				<div class="imgBx">
-					<img src="img/jon.jpg" alt="">
-				</div>
-				<div class="text">
-					<p>
-						"Their coffee is easily some of the best I've ever had."... "Their pour-overs were perfection-- smooth, balanced, and flavorful with no need for anything extra."
-
-																	</p>
-					<h3>Jonathan F.</h3>
-				</div>
-			</div>
-			<div class="box">
-				<div class="imgBx">
-					<img src="img/camile.jpg" alt="">
-				</div>
-				<div class="text">
-					<p>
-						"An amazing experience all around! Josh and Kieran were very accommodating with the planning, and it was such a well executed event."
-					</p>
-					<h3>Camille E.</h3>
+					<h3><a href="https://www.sfchronicle.com/food/restaurants/article/komakase-coffee-tasting-menu-19926032.php">Cesar Hernandez, SF Chronicle</a></h3>
 				</div>
 			</div>
 		</div>
